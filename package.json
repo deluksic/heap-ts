@@ -1,0 +1,23 @@
+{
+  "name": "heap-ts",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "email": "deluksic@gmail.com",
+    "name": "David Emanuel Luksic"
+  },
+  "type": "module",
+  "main": "./dist/heap-ts.umd.cjs",
+  "module": "./dist/heap-ts.js",
+  "types": "./dist/heap-ts.d.ts",
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.4",
+    "vite": "^5.2.8",
+    "vite-plugin-dts": "3.8.1",
+    "vitest": "^1.4.0"
+  }
+}
